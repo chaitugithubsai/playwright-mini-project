@@ -1,0 +1,17 @@
+{
+  "users": {
+    "valid": {
+      "user": "standard_user",
+      "pass": "secret_sauce"
+    },
+    "invalid": {
+      "user": "wrong_user",
+      "pass": "wrong_pass"
+    }
+  },
+  "apiIds": [1, 2, 3],
+  "formInputs": [
+    { "email": "test@example.com", "password": "password123" },
+    { "email": "invalid@example.com", "password": "" }
+  ]
+}
